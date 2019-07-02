@@ -26,6 +26,3 @@ The knapsack problem seeks to optimize a paramenter given a constraint. In this 
         result = max(tmp3, tmp4)
     return result
 '''
-
-
-

@@ -17,7 +17,7 @@ The website provides a month-by-month breakdown of taxi data from yellow taxis, 
 
 ```python
 
-	manhattan_pu = merged_pu.loc[merged_pu['borough'] == 'Manhattan'] #sort by only Manhattan trips
+	manhattan_pu = merged_pu.loc[merged_pu['borough'] == 'Manhattan']
 	manhattan_do = merged_do.loc[merged_do['borough'] == 'Manhattan']
 
 	fig, (ax1, ax2) = plt.subplots(ncols=2, sharex=True, sharey=True, figsize=(15,10))

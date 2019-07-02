@@ -11,18 +11,12 @@ tags: [Projects]
 
 
 ```python
-#logistic regression
-#collect study means
-#by particpant/hue=condition, y axis = rMSSD
 
 SUBJECTS = data.sheet_names
 CONDITIONS = data_df.Condition.unique()
 
 def calculate_mean_rmssd(condition,subject):
     return data_df[(data_df.Condition==condition) & (data_df.subject==subject)].RMSSD.mean()
-
-#def calculate_mean_hr(condition,subject):
-    #return data_df[(data_df.Condition==condition) & (data_df.subject==subject)].HR.mean()
 
 def generate_means(conditions,subjects):
     output={}
