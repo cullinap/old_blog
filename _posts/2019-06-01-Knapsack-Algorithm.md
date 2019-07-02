@@ -13,7 +13,7 @@ The knapsack problem seeks to optimize a paramenter given a constraint. In this 
 
 ```python
 
-	def knap_sack(a,b,i):
+def knap_sack(a,b,i):
     if i == 0:
         result = max(0,(values[i] if state_1[a]<=max_weight and state_2[b]<=max_volume \
             and state_1[a]>=weights[i] and state_2[b]>=volumes[i] else -9999.99))
@@ -25,4 +25,4 @@ The knapsack problem seeks to optimize a paramenter given a constraint. In this 
         tmp4 = values[i] + knap_sack(state_1[a]-weights[i],state_2[b]-volumes[i],i-1)
         result = max(tmp3, tmp4)
     return result
-'''
+```
