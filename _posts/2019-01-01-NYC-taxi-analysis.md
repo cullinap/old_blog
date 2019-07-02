@@ -5,7 +5,7 @@ date: 2019-01-01
 tags: [Projects]
 ---
 
-#please see link for code and jupyter notebook
+# please see link for code and jupyter notebook
 [Project Link](https://github.com/cullinap/NYC-taxi-analysis)
 
 # Analysis of NYC Taxi Trip Data
@@ -29,3 +29,5 @@ The website provides a month-by-month breakdown of taxi data from yellow taxis, 
 	ax2.set_title('Aug: Manhattan drop-offs', fontdict={'fontsize': '25', 'fontweight' : '3'})
 	plt.show()
 ```
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/nyc-dropoffs-pickups.png" alt="">

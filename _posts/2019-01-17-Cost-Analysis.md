@@ -4,7 +4,7 @@ date: 2019-01-17
 tags: [Projects]
 ---
 
-#please see link for code and jupyter notebook
+# please see link for code and jupyter notebook
 [Project Link](https://github.com/cullinap/cost-analysis_v2)
 
 # Cost Analysis Project

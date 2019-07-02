@@ -4,7 +4,7 @@ date: 2019-04-15
 tags: [Projects]
 ---
 
-#please see link for code and jupyter notebook
+# please see link for code and jupyter notebook
 [Project Link](https://github.com/cullinap/hrv_analysis/blob/master/hrv_data_exploration-Copy1.ipynb)
 
 # Heart Rate Variability Analysis
@@ -30,3 +30,5 @@ def generate_scatter(value,value_range):
     [plt.scatter(SUBJECTS, [elem[i] for elem in value.values()]) for i in range(value_range)]
     plt.show()
 ```
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/hrv-analysis.png" alt="">

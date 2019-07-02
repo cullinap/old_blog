@@ -4,7 +4,7 @@ date: 2019-06-01
 tags: [Projects]
 ---
 
-#please see link for code and jupyter notebook
+# please see link for code and jupyter notebook
 [Project Link](https://github.com/cullinap/knapsack-algorithm)
 
 # Solving the Multi-Dimensional Knapsack Problem using Python
