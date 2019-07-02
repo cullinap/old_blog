@@ -17,4 +17,4 @@ lr_clf.fit(atom_scalar,type_coupling)
 
 plot_decision_regions(X=X.values, y=type_coupling, clf=lr_clf, legend=7)
 plt.show()
-'''
+```

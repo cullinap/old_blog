@@ -11,7 +11,6 @@ tags: [Projects]
 
 
 ```python
-
 SUBJECTS = data.sheet_names
 CONDITIONS = data_df.Condition.unique()
 
@@ -30,4 +29,4 @@ def generate_means(conditions,subjects):
 def generate_scatter(value,value_range):
     [plt.scatter(SUBJECTS, [elem[i] for elem in value.values()]) for i in range(value_range)]
     plt.show()
-'''
+```

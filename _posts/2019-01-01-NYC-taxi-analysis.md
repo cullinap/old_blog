@@ -16,7 +16,6 @@ The website provides a month-by-month breakdown of taxi data from yellow taxis, 
 
 
 ```python
-
 	manhattan_pu = merged_pu.loc[merged_pu['borough'] == 'Manhattan']
 	manhattan_do = merged_do.loc[merged_do['borough'] == 'Manhattan']
 
@@ -29,4 +28,4 @@ The website provides a month-by-month breakdown of taxi data from yellow taxis, 
 	ax2.axis('off')
 	ax2.set_title('Aug: Manhattan drop-offs', fontdict={'fontsize': '25', 'fontweight' : '3'})
 	plt.show()
-'''
+```
