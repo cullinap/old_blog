@@ -12,7 +12,6 @@ tags: [Projects]
 The knapsack problem seeks to optimize a paramenter given a constraint. In this case, given a backpack with a certain capacity what is the optimal value while maximizing weight and volume (or two other parameters).
 
 ```python
-
 def knap_sack(a,b,i):
     if i == 0:
         result = max(0,(values[i] if state_1[a]<=max_weight and state_2[b]<=max_volume \
