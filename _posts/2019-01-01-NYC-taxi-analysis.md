@@ -14,7 +14,7 @@ The NYC Taxi and Limousine Commission (TLC) collects data on such as pick-up/dro
 The website provides a month-by-month breakdown of taxi data from yellow taxis, green taxis, and For-Hire Vehicles (FHV). FHV's consist of community cars, black cars, luxury limos, and high-volume for-hire services. Addtionally, the data is broken down by year and month. Because there is an enourmous amount of data we will start our analysis with yellow taxis in August of 2018.
 
 
-'''python
+```python
 
 	manhattan_pu = merged_pu.loc[merged_pu['borough'] == 'Manhattan'] #sort by only Manhattan trips
 	manhattan_do = merged_do.loc[merged_do['borough'] == 'Manhattan']
