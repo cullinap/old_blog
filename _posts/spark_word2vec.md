@@ -28,7 +28,7 @@ amzn_data.registerTempTable('reviews')
 sqlContext.sql("select overall, count(overall) as reviewCount from reviews group by overall order by overall desc").show()
 ```
 overall | reviewCount
---- | --- | ---
+--- | --- 
 5.0 | 85266
 4.0 | 28336
 3.0 | 10769
