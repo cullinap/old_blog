@@ -43,6 +43,7 @@ amzn_data_ = amzn_data.withColumn("overall_recode",udf(amzn_data.overall))
 amzn_data_.select("overall", "overall_recode", "summary", "reviewText").show(10)
 ```
 overall | overall_recode | summary | reviewText 
+--- | --- | --- | ---
 5.0| 1|Perfect for colla...|I hate it when my...
 5.0| 1|Neat|These little magn...|
 5.0| 1| Very small and thin|I wanted somethin...
@@ -54,23 +55,6 @@ overall | overall_recode | summary | reviewText
 5.0| 1|Fantastic book|These are project...
 5.0| 1| AWESOME!!!!!!!!!!!|If you have a poc...
 
-
-
-+-------+--------------+--------------------+--------------------+
-|overall|overall_recode|             summary|          reviewText|
-+-------+--------------+--------------------+--------------------+
-|    5.0|             1|Perfect for colla...|I hate it when my...|
-|    5.0|             1|                Neat|These little magn...|
-|    5.0|             1| Very small and thin|I wanted somethin...|
-|    5.0|             1|Excellent hobby m...|I use these to ma...|
-|    5.0|             1|They're annoying....|They are soo frea...|
-|    5.0|             1|       using for 40k|am using for 40k ...|
-|    5.0|             1|Great source book...|The color picture...|
-|    3.0|            -1|Good for starting...|Good simple proje...|
-|    5.0|             1|      Fantastic book|These are project...|
-|    5.0|             1|  AWESOME!!!!!!!!!!!|If you have a poc...|
-+-------+--------------+--------------------+--------------------+
-only showing top 10 rows
 
 ```python
 #turn text data into tokens
