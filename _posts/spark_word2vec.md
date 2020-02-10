@@ -1,6 +1,7 @@
 ---
-layout: archive
-permalink: /spark_word2vec/
+title: "Knapsack Algorithm"
+date: 2019-06-01
+tags: [Projects]
 ---
 
 ##### Tokenize text and Convert to word2vec using Spark
