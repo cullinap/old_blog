@@ -1,6 +1,6 @@
 ---
-title: "Knapsack Algorithm"
-date: 2019-06-01
+title: "Spark Word2Vec Example"
+date: 2020-02-10
 tags: [Projects]
 ---
 
