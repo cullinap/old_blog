@@ -77,9 +77,8 @@ if __name__ == "__main__":
     main(sys.argv[1], sys.argv[2], sys.argv[3], *sys.argv[4:])
 ```
 
-The result looks like this:
+The resulting file '2020-04-11.md' looks like this:
 
-```markdown
 ---
 title: "example file"
 date: 2020-04-11
