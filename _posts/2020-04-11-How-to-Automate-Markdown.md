@@ -4,10 +4,10 @@ date: 2020-04-11
 tags: [Projects]
 ---
 
-# please see link for code
+### please see link for code
 [Project Link](https://github.com/cullinap/automate-markdown-)
 
-# How to Automate Markdown
+### How to Automate Markdown
 
 Making a markdown file is a necessary evil, but not the most rewarding task. I would rather write code than re-google how to format a link when it comes time to document my code. Of course this brings up an excellent opportunity to automate this task. In fact I am writing this post using my template code which removes my excuse for not doing it. 
 
