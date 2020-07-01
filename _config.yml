@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Patrick Cullinane"
 title_separator          : "-"
 name                     : "Patrick Cullinane"
-description              : "Data Science Portfolio"
+description              : "code + data science + thoughts"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Patrick Cullinane"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : ""
   location         : "NYC"
   email            :
   links:
